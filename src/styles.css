@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: block;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.status {
+  font-size: 18px;
+  color: #333;
+  /* margin-bottom: 10px; */
+  /* margin-top: 20px; */
+  margin: 20px auto;
+}
+
+.reset-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 10px auto;
+}
+
+.reset-button:hover {
+  background-color: #0056b3;
+}
